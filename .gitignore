@@ -1,21 +1,58 @@
-.gradle
-**/build/
-!src/**/build/
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# Output of the go tool
+*.log
+*.out
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+# Dependency directories (remove the comment below if you're using Go modules)
+vendor/
 
-# Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
+# Go modules
+/go/pkg/mod/
+/go/bin/
 
-# Cache of project
-.gradletasknamecache
+# Go build artifacts
+*.a
+*.o
+*.cgo1.go
+*.cgo2.c
 
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# Test binary, cache, and result files
+*.test
+*.prof
+*.coverprofile
+*.cov
+*.coverage
+*.tmp
+
+# GoLand project settings
+.idea/
+
+# GoLand specific project files
+*.iml
+
+# GoLand's Workspace
+workspace.xml
+
+# VSCode settings (if applicable)
+.vscode/
+
+# Generated files
+gen/
+generated/
+
+# Local environment variables
+.env
+.env.local
+
+# Ignore the "node_modules" directory if you use frontend build tools like Node.js
+node_modules/
+
+# Backup files
+*.bak
+*.swp
+*.swo
