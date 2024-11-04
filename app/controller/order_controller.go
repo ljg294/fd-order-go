@@ -2,8 +2,8 @@ package controller
 
 import (
 	"database/sql"
-	"fd-order/app/service"
 	"github.com/gin-gonic/gin"
+	"github.com/ljg294/fd-order/app/service"
 	"github.com/ljg294/fd-order/domain/repository"
 	"net/http"
 	"strconv"

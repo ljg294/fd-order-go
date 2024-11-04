@@ -2,7 +2,7 @@ package repository
 
 import (
 	"database/sql"
-	"fd-order/domain/entity"
+	"github.com/ljg294/fd-order/domain/entity"
 )
 
 // OrderRepository handles database operations related to the "Order" entity

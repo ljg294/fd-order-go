@@ -1,8 +1,8 @@
 package service
 
 import (
-	"fd-order/domain/entity"
-	"fd-order/domain/repository"
+	"github.com/ljg294/fd-order/domain/entity"
+	"github.com/ljg294/fd-order/domain/repository"
 )
 
 // OrderService contains business logic for handling orders
